@@ -1,5 +1,5 @@
-src/instances/Game.d: ../src/instances/Game.cpp ../src/instances/Game.hpp \
- ../src/instances/../includes.hpp \
+src/instances/Game.d: ../src/instances/Game.cpp ../src/instances/Game.h \
+ ../src/instances/../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -130,32 +130,32 @@ src/instances/Game.d: ../src/instances/Game.cpp ../src/instances/Game.hpp \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/instances/../renderable/ModelSystem.hpp \
- ../src/instances/../renderable/../includes.hpp \
- ../src/instances/../renderable/shapes/Shape.hpp \
- ../src/instances/../renderable/shapes/../../includes.hpp \
- ../src/instances/../renderable/shapes/LoadModel.hpp \
- ../src/instances/../renderable/shapes/Shape.hpp \
- ../src/instances/../renderable/shapes/LoadTexture.hpp \
- ../src/instances/../renderable/Entity.hpp \
- ../src/instances/../renderable/ModelSystem.hpp \
- ../src/instances/../renderable/scenery/Map.hpp \
- ../src/instances/../renderable/scenery/LightSystem.hpp \
- ../src/instances/../renderable/scenery/../../includes.hpp \
- ../src/instances/../renderable/ModelSystem.hpp \
- ../src/instances/../renderable/scenery/map/Terrain.hpp \
- ../src/instances/../renderable/scenery/map/../../../includes.hpp \
- ../src/instances/../renderable/scenery/map/Level.hpp \
- ../src/instances/../renderable/scenery/map/../../Entity.hpp \
- ../src/instances/../renderable/scenery/map/../../../utils/Collision.hpp \
- ../src/instances/../renderable/scenery/map/../../../utils/../includes.hpp \
- /usr/include/bullet/../entities.h ../src/instances/../utils/shader.hpp \
- ../src/instances/../utils/controls.hpp \
- ../src/instances/../utils/Collision.hpp
+ ../src/instances/../renderable/ModelSystem.h \
+ ../src/instances/../renderable/../includes.h \
+ ../src/instances/../renderable/shapes/Shape.h \
+ ../src/instances/../renderable/shapes/../../includes.h \
+ ../src/instances/../renderable/shapes/LoadModel.h \
+ ../src/instances/../renderable/shapes/Shape.h \
+ ../src/instances/../renderable/shapes/LoadTexture.h \
+ ../src/instances/../renderable/Entity.h \
+ ../src/instances/../renderable/ModelSystem.h \
+ ../src/instances/../renderable/scenery/Map.h \
+ ../src/instances/../renderable/scenery/LightSystem.h \
+ ../src/instances/../renderable/scenery/../../includes.h \
+ ../src/instances/../renderable/ModelSystem.h \
+ ../src/instances/../renderable/scenery/map/Terrain.h \
+ ../src/instances/../renderable/scenery/map/../../../includes.h \
+ ../src/instances/../renderable/scenery/map/Level.h \
+ ../src/instances/../renderable/scenery/map/../../Entity.h \
+ ../src/instances/../renderable/scenery/map/../../../utils/Collision.h \
+ ../src/instances/../renderable/scenery/map/../../../utils/../includes.h \
+ /usr/include/bullet/../entities.h ../src/instances/../utils/shader.h \
+ ../src/instances/../utils/controls.h \
+ ../src/instances/../utils/Collision.h
 
-../src/instances/Game.hpp:
+../src/instances/Game.h:
 
-../src/instances/../includes.hpp:
+../src/instances/../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -417,48 +417,48 @@ src/instances/Game.d: ../src/instances/Game.cpp ../src/instances/Game.hpp \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/instances/../renderable/ModelSystem.hpp:
+../src/instances/../renderable/ModelSystem.h:
 
-../src/instances/../renderable/../includes.hpp:
+../src/instances/../renderable/../includes.h:
 
-../src/instances/../renderable/shapes/Shape.hpp:
+../src/instances/../renderable/shapes/Shape.h:
 
-../src/instances/../renderable/shapes/../../includes.hpp:
+../src/instances/../renderable/shapes/../../includes.h:
 
-../src/instances/../renderable/shapes/LoadModel.hpp:
+../src/instances/../renderable/shapes/LoadModel.h:
 
-../src/instances/../renderable/shapes/Shape.hpp:
+../src/instances/../renderable/shapes/Shape.h:
 
-../src/instances/../renderable/shapes/LoadTexture.hpp:
+../src/instances/../renderable/shapes/LoadTexture.h:
 
-../src/instances/../renderable/Entity.hpp:
+../src/instances/../renderable/Entity.h:
 
-../src/instances/../renderable/ModelSystem.hpp:
+../src/instances/../renderable/ModelSystem.h:
 
-../src/instances/../renderable/scenery/Map.hpp:
+../src/instances/../renderable/scenery/Map.h:
 
-../src/instances/../renderable/scenery/LightSystem.hpp:
+../src/instances/../renderable/scenery/LightSystem.h:
 
-../src/instances/../renderable/scenery/../../includes.hpp:
+../src/instances/../renderable/scenery/../../includes.h:
 
-../src/instances/../renderable/ModelSystem.hpp:
+../src/instances/../renderable/ModelSystem.h:
 
-../src/instances/../renderable/scenery/map/Terrain.hpp:
+../src/instances/../renderable/scenery/map/Terrain.h:
 
-../src/instances/../renderable/scenery/map/../../../includes.hpp:
+../src/instances/../renderable/scenery/map/../../../includes.h:
 
-../src/instances/../renderable/scenery/map/Level.hpp:
+../src/instances/../renderable/scenery/map/Level.h:
 
-../src/instances/../renderable/scenery/map/../../Entity.hpp:
+../src/instances/../renderable/scenery/map/../../Entity.h:
 
-../src/instances/../renderable/scenery/map/../../../utils/Collision.hpp:
+../src/instances/../renderable/scenery/map/../../../utils/Collision.h:
 
-../src/instances/../renderable/scenery/map/../../../utils/../includes.hpp:
+../src/instances/../renderable/scenery/map/../../../utils/../includes.h:
 
 /usr/include/bullet/../entities.h:
 
-../src/instances/../utils/shader.hpp:
+../src/instances/../utils/shader.h:
 
-../src/instances/../utils/controls.hpp:
+../src/instances/../utils/controls.h:
 
-../src/instances/../utils/Collision.hpp:
+../src/instances/../utils/Collision.h:

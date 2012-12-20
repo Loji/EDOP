@@ -5,14 +5,17 @@
  *      Author: jacob
  */
 
-#include "Game.hpp"
+#include "Game.h"
+
+static const int HEIGHT = 1024;
+static const int WIDTH = 768;
 
 void Game::init() {
 	glClearColor(0.25f, 0.f, 0.25f, 0.f);
 	glEnable(GL_DEPTH_TEST);
 	glDepthFunc(GL_LESS);
 
-	glViewport(0, 0, 700, 700);
+	glViewport(0, 0, HEIGHT, WIDTH);
 
 	modelSystem.create();
 
@@ -171,8 +174,8 @@ Game::Game() {
 
 	// loading shaders, full path since I want to keep them in sources, later will be moved somewhere else
 	shader = LoadShaders(
-			"/home/jacob/git/edop/src/renderable/shader/SimpleShader.vert",
-			"/home/jacob/git/edop/src/renderable/shader/SimpleShader.frag");
+			"/home/jacob/git/EDOP/src/renderable/shader/SimpleShader.vert",
+			"/home/jacob/git/EDOP/src/renderable/shader/SimpleShader.frag");
 
 	modelSystem = ModelSystem(shader);
 

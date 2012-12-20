@@ -32,7 +32,7 @@
 #include <vector>
 #include <string>
 
-#include "renderable/ModelSystem.hpp"
+#include "renderable/ModelSystem.h"
 //#include "renderable/Entity.hpp"
 
 #endif

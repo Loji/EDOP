@@ -1,5 +1,5 @@
 src/renderable/Entity.d: ../src/renderable/Entity.cpp \
- ../src/renderable/Entity.hpp ../src/renderable/../includes.hpp \
+ ../src/renderable/Entity.h ../src/renderable/../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -130,19 +130,19 @@ src/renderable/Entity.d: ../src/renderable/Entity.cpp \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/renderable/../renderable/ModelSystem.hpp \
- ../src/renderable/../renderable/../includes.hpp \
- ../src/renderable/../renderable/shapes/Shape.hpp \
- ../src/renderable/../renderable/shapes/../../includes.hpp \
- ../src/renderable/../renderable/shapes/LoadModel.hpp \
- ../src/renderable/../renderable/shapes/Shape.hpp \
- ../src/renderable/../renderable/shapes/LoadTexture.hpp \
- ../src/renderable/ModelSystem.hpp ../src/renderable/shapes/Shape.hpp \
- ../src/renderable/shapes/LoadModel.hpp
+ ../src/renderable/../renderable/ModelSystem.h \
+ ../src/renderable/../renderable/../includes.h \
+ ../src/renderable/../renderable/shapes/Shape.h \
+ ../src/renderable/../renderable/shapes/../../includes.h \
+ ../src/renderable/../renderable/shapes/LoadModel.h \
+ ../src/renderable/../renderable/shapes/Shape.h \
+ ../src/renderable/../renderable/shapes/LoadTexture.h \
+ ../src/renderable/ModelSystem.h ../src/renderable/shapes/Shape.h \
+ ../src/renderable/shapes/LoadModel.h
 
-../src/renderable/Entity.hpp:
+../src/renderable/Entity.h:
 
-../src/renderable/../includes.hpp:
+../src/renderable/../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -404,22 +404,22 @@ src/renderable/Entity.d: ../src/renderable/Entity.cpp \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/renderable/../renderable/ModelSystem.hpp:
+../src/renderable/../renderable/ModelSystem.h:
 
-../src/renderable/../renderable/../includes.hpp:
+../src/renderable/../renderable/../includes.h:
 
-../src/renderable/../renderable/shapes/Shape.hpp:
+../src/renderable/../renderable/shapes/Shape.h:
 
-../src/renderable/../renderable/shapes/../../includes.hpp:
+../src/renderable/../renderable/shapes/../../includes.h:
 
-../src/renderable/../renderable/shapes/LoadModel.hpp:
+../src/renderable/../renderable/shapes/LoadModel.h:
 
-../src/renderable/../renderable/shapes/Shape.hpp:
+../src/renderable/../renderable/shapes/Shape.h:
 
-../src/renderable/../renderable/shapes/LoadTexture.hpp:
+../src/renderable/../renderable/shapes/LoadTexture.h:
 
-../src/renderable/ModelSystem.hpp:
+../src/renderable/ModelSystem.h:
 
-../src/renderable/shapes/Shape.hpp:
+../src/renderable/shapes/Shape.h:
 
-../src/renderable/shapes/LoadModel.hpp:
+../src/renderable/shapes/LoadModel.h:

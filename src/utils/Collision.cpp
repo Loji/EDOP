@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "Collision.hpp"
+#include "Collision.h"
 
 Collision::Collision() {
 
@@ -70,6 +70,11 @@ glm::mat4 ProjectionMatrix;
 glm::vec3 position = glm::vec3(0, 0, 15);
 glm::vec3 direction;
 
+Collision *coll;
+
+float mass = 0.3f;
+unsigned int cameraIndex;
+
 void initInput() {
 	GLFWvidmode vid;
 	glfwGetDesktopMode(&vid);
@@ -79,8 +84,8 @@ void initInput() {
 	btCylinderShape *shape = new btCylinderShape(btVector3(0.2f, 2, 0.2f));
 
 	btVector3 iner(0, 0, 0);
-	float mass = 1;
-	shape->calculateLocalInertia(mass, iner);
+	if (mass != 0)
+		shape->calculateLocalInertia(mass, iner);
 
 	btTransform t;
 	t.setIdentity();
@@ -102,8 +107,8 @@ void initInput(Collision &collision) {
 	btSphereShape *shape = new btSphereShape(0.3f);
 
 	btVector3 iner(0, 0, 0);
-	float mass = 0.3f;
-	shape->calculateLocalInertia(mass, iner);
+	if (mass != 0)
+		shape->calculateLocalInertia(mass, iner);
 
 	btTransform t;
 	t.setIdentity();
@@ -114,6 +119,9 @@ void initInput(Collision &collision) {
 
 	cameraBody = new btRigidBody(info);
 	collision.world->addRigidBody(cameraBody);
+	cameraIndex = collision.bodies.size();
+
+	coll = &collision;
 }
 
 void initInput(Collision &collision, glm::vec3 p) {
@@ -126,8 +134,8 @@ void initInput(Collision &collision, glm::vec3 p) {
 	btSphereShape *shape = new btSphereShape(0.3f);
 
 	btVector3 iner(0, 0, 0);
-	float mass = 0.3f;
-	shape->calculateLocalInertia(mass, iner);
+	if (mass != 0)
+		shape->calculateLocalInertia(mass, iner);
 
 	btTransform t;
 	t.setIdentity();
@@ -140,6 +148,7 @@ void initInput(Collision &collision, glm::vec3 p) {
 	collision.world->addRigidBody(cameraBody);
 
 	position = p;
+	coll = &collision;
 }
 
 void initInput(glm::vec3 p) {
@@ -151,8 +160,8 @@ void initInput(glm::vec3 p) {
 	btSphereShape *shape = new btSphereShape(1);
 
 	btVector3 iner(0, 0, 0);
-	float mass = 150;
-	shape->calculateLocalInertia(mass, iner);
+	if (mass != 0)
+		shape->calculateLocalInertia(mass, iner);
 
 	btTransform t;
 	t.setIdentity();
@@ -190,6 +199,9 @@ float mouseSpeed = 0.005f;
 bool lockMouse = true;
 bool lockMousePressed = false;
 
+bool gravity = true;
+bool gravityPressed = false;
+
 void computeMatricesFromInputs() {
 
 	static double lastTime = glfwGetTime();
@@ -210,11 +222,16 @@ void computeMatricesFromInputs() {
 		if (verticalAngle > 2.f)
 			verticalAngle = 2.f;
 	}
+
 	direction = glm::vec3(cos(verticalAngle) * sin(horizontalAngle),
 			sin(verticalAngle), cos(verticalAngle) * cos(horizontalAngle));
-
-	glm::vec3 front = glm::vec3(cos(0) * sin(horizontalAngle), sin(0),
-			cos(0) * cos(horizontalAngle));
+	glm::vec3 front;
+	if (gravity)
+		front = glm::vec3(cos(0) * sin(horizontalAngle), sin(0),
+				cos(0) * cos(horizontalAngle));
+	else
+		front = glm::vec3(cos(verticalAngle) * sin(horizontalAngle),
+				sin(verticalAngle), cos(verticalAngle) * cos(horizontalAngle));
 
 	glm::vec3 right = glm::vec3(sin(horizontalAngle - 3.14f / 2.0f), 0,
 			cos(horizontalAngle - 3.14f / 2.0f));
@@ -247,6 +264,8 @@ void computeMatricesFromInputs() {
 		position -= right * deltaTime * speed;
 		testVec -= right * deltaTime * speed;
 	}
+
+	//lock screen for tab
 	if (glfwGetKey(GLFW_KEY_TAB) == GLFW_PRESS && lockMousePressed) {
 		lockMouse = !lockMouse;
 		lockMousePressed = false;
@@ -254,10 +273,25 @@ void computeMatricesFromInputs() {
 	if (glfwGetKey(GLFW_KEY_TAB) == GLFW_RELEASE)
 		lockMousePressed = true;
 
-	float FoV = initialFoV - 5 * glfwGetMouseWheel();
+	//gravity on/off key
+	if (glfwGetKey(90) == GLFW_PRESS && gravityPressed) {
+		gravity = !gravity;
+		if(!gravity) {
+			coll->world->setGravity(btVector3(0,0,0));
+		} else {
+			coll->world->setGravity(btVector3(0,-150.f,0));
+		}
+
+		gravityPressed = false;
+	}
+	if (glfwGetKey(90) == GLFW_RELEASE)
+		gravityPressed = true;
+
+	float FoV = initialFoV;
 
 	cameraBody->setLinearVelocity(
 			btVector3(testVec.x * 25, testVec.y * 25, testVec.z * 25));
+	cameraBody->setMassProps(mass, btVector3(0,0,0));
 
 	ProjectionMatrix = glm::perspective(FoV, 4.0f / 3.0f, 0.1f, 100.0f);
 
@@ -275,6 +309,5 @@ void computeMatricesFromInputs() {
 
 	lastTime = currentTime;
 }
-
 
 } // namespace collided

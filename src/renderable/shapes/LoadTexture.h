@@ -8,7 +8,7 @@
 #ifndef LOADTEXTURE_HPP_
 #define LOADTEXTURE_HPP_
 
-#include "../../includes.hpp"
+#include "../../includes.h"
 
 class LoadTexture {
 public:

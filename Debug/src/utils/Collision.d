@@ -1,5 +1,5 @@
 src/utils/Collision.d: ../src/utils/Collision.cpp \
- ../src/utils/Collision.hpp ../src/utils/../includes.hpp \
+ ../src/utils/Collision.h ../src/utils/../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -130,18 +130,18 @@ src/utils/Collision.d: ../src/utils/Collision.cpp \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/utils/../renderable/ModelSystem.hpp \
- ../src/utils/../renderable/../includes.hpp \
- ../src/utils/../renderable/shapes/Shape.hpp \
- ../src/utils/../renderable/shapes/../../includes.hpp \
- ../src/utils/../renderable/shapes/LoadModel.hpp \
- ../src/utils/../renderable/shapes/Shape.hpp \
- ../src/utils/../renderable/shapes/LoadTexture.hpp \
+ ../src/utils/../renderable/ModelSystem.h \
+ ../src/utils/../renderable/../includes.h \
+ ../src/utils/../renderable/shapes/Shape.h \
+ ../src/utils/../renderable/shapes/../../includes.h \
+ ../src/utils/../renderable/shapes/LoadModel.h \
+ ../src/utils/../renderable/shapes/Shape.h \
+ ../src/utils/../renderable/shapes/LoadTexture.h \
  /usr/include/bullet/../entities.h
 
-../src/utils/Collision.hpp:
+../src/utils/Collision.h:
 
-../src/utils/../includes.hpp:
+../src/utils/../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -403,18 +403,18 @@ src/utils/Collision.d: ../src/utils/Collision.cpp \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/utils/../renderable/ModelSystem.hpp:
+../src/utils/../renderable/ModelSystem.h:
 
-../src/utils/../renderable/../includes.hpp:
+../src/utils/../renderable/../includes.h:
 
-../src/utils/../renderable/shapes/Shape.hpp:
+../src/utils/../renderable/shapes/Shape.h:
 
-../src/utils/../renderable/shapes/../../includes.hpp:
+../src/utils/../renderable/shapes/../../includes.h:
 
-../src/utils/../renderable/shapes/LoadModel.hpp:
+../src/utils/../renderable/shapes/LoadModel.h:
 
-../src/utils/../renderable/shapes/Shape.hpp:
+../src/utils/../renderable/shapes/Shape.h:
 
-../src/utils/../renderable/shapes/LoadTexture.hpp:
+../src/utils/../renderable/shapes/LoadTexture.h:
 
 /usr/include/bullet/../entities.h:

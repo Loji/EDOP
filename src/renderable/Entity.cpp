@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "Entity.hpp"
+#include "Entity.h"
 
 void Entity::render(glm::mat4 view, GLuint M, GLuint nM, ModelSystem modelSystem) {
     //sending normal matrix and model matrix to shader

@@ -8,10 +8,10 @@
 #ifndef MODELSYSTEM_HPP
 #define MODELSYSTEM_HPP
 
-#include "../includes.hpp"
-#include "shapes/Shape.hpp"
-#include "shapes/LoadModel.hpp"
-#include "shapes/LoadTexture.hpp"
+#include "../includes.h"
+#include "shapes/Shape.h"
+#include "shapes/LoadModel.h"
+#include "shapes/LoadTexture.h"
 
 class ModelSystem {
 public:

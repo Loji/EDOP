@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "LightSystem.hpp"
+#include "LightSystem.h"
 #include <sstream>
 
 LightSystem::LightSystem() {

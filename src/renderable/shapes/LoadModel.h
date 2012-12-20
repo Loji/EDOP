@@ -8,7 +8,7 @@
 #ifndef LOADMODEL_HPP_
 #define LOADMODEL_HPP_
 
-#include "Shape.hpp"
+#include "Shape.h"
 #include <iostream>
 #include <fstream>
 #include <stdlib.h>

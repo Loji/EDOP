@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "Shape.hpp"
+#include "Shape.h"
 
 Shape::Shape() {
     // TODO Auto-generated constructor stub

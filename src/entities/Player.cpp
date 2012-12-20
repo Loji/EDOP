@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "Player.hpp"
+#include "Player.h"
 
 Player::Player() {
 	// TODO Auto-generated constructor stub

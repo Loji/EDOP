@@ -8,7 +8,7 @@
 #ifndef TERRAIN_HPP_
 #define TERRAIN_HPP_
 
-#include "../../../includes.hpp"
+#include "../../../includes.h"
 
 class Terrain {
 public:

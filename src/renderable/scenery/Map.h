@@ -8,6 +8,6 @@
 #ifndef LIGHTNING
 #define LIGHTNING
 
-#include "LightSystem.hpp"
+#include "LightSystem.h"
 
 #endif

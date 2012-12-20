@@ -1,7 +1,7 @@
 src/renderable/scenery/LightSystem.d: \
  ../src/renderable/scenery/LightSystem.cpp \
- ../src/renderable/scenery/LightSystem.hpp \
- ../src/renderable/scenery/../../includes.hpp \
+ ../src/renderable/scenery/LightSystem.h \
+ ../src/renderable/scenery/../../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -132,17 +132,17 @@ src/renderable/scenery/LightSystem.d: \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/renderable/scenery/../../renderable/ModelSystem.hpp \
- ../src/renderable/scenery/../../renderable/../includes.hpp \
- ../src/renderable/scenery/../../renderable/shapes/Shape.hpp \
- ../src/renderable/scenery/../../renderable/shapes/../../includes.hpp \
- ../src/renderable/scenery/../../renderable/shapes/LoadModel.hpp \
- ../src/renderable/scenery/../../renderable/shapes/Shape.hpp \
- ../src/renderable/scenery/../../renderable/shapes/LoadTexture.hpp
+ ../src/renderable/scenery/../../renderable/ModelSystem.h \
+ ../src/renderable/scenery/../../renderable/../includes.h \
+ ../src/renderable/scenery/../../renderable/shapes/Shape.h \
+ ../src/renderable/scenery/../../renderable/shapes/../../includes.h \
+ ../src/renderable/scenery/../../renderable/shapes/LoadModel.h \
+ ../src/renderable/scenery/../../renderable/shapes/Shape.h \
+ ../src/renderable/scenery/../../renderable/shapes/LoadTexture.h
 
-../src/renderable/scenery/LightSystem.hpp:
+../src/renderable/scenery/LightSystem.h:
 
-../src/renderable/scenery/../../includes.hpp:
+../src/renderable/scenery/../../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -404,16 +404,16 @@ src/renderable/scenery/LightSystem.d: \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/renderable/scenery/../../renderable/ModelSystem.hpp:
+../src/renderable/scenery/../../renderable/ModelSystem.h:
 
-../src/renderable/scenery/../../renderable/../includes.hpp:
+../src/renderable/scenery/../../renderable/../includes.h:
 
-../src/renderable/scenery/../../renderable/shapes/Shape.hpp:
+../src/renderable/scenery/../../renderable/shapes/Shape.h:
 
-../src/renderable/scenery/../../renderable/shapes/../../includes.hpp:
+../src/renderable/scenery/../../renderable/shapes/../../includes.h:
 
-../src/renderable/scenery/../../renderable/shapes/LoadModel.hpp:
+../src/renderable/scenery/../../renderable/shapes/LoadModel.h:
 
-../src/renderable/scenery/../../renderable/shapes/Shape.hpp:
+../src/renderable/scenery/../../renderable/shapes/Shape.h:
 
-../src/renderable/scenery/../../renderable/shapes/LoadTexture.hpp:
+../src/renderable/scenery/../../renderable/shapes/LoadTexture.h:

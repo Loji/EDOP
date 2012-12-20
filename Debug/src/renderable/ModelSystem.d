@@ -1,5 +1,5 @@
 src/renderable/ModelSystem.d: ../src/renderable/ModelSystem.cpp \
- ../src/renderable/ModelSystem.hpp ../src/renderable/../includes.hpp \
+ ../src/renderable/ModelSystem.h ../src/renderable/../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -130,16 +130,15 @@ src/renderable/ModelSystem.d: ../src/renderable/ModelSystem.cpp \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/renderable/../renderable/ModelSystem.hpp \
- ../src/renderable/shapes/Shape.hpp \
- ../src/renderable/shapes/../../includes.hpp \
- ../src/renderable/shapes/LoadModel.hpp \
- ../src/renderable/shapes/Shape.hpp \
- ../src/renderable/shapes/LoadTexture.hpp
+ ../src/renderable/../renderable/ModelSystem.h \
+ ../src/renderable/shapes/Shape.h \
+ ../src/renderable/shapes/../../includes.h \
+ ../src/renderable/shapes/LoadModel.h ../src/renderable/shapes/Shape.h \
+ ../src/renderable/shapes/LoadTexture.h
 
-../src/renderable/ModelSystem.hpp:
+../src/renderable/ModelSystem.h:
 
-../src/renderable/../includes.hpp:
+../src/renderable/../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -401,14 +400,14 @@ src/renderable/ModelSystem.d: ../src/renderable/ModelSystem.cpp \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/renderable/../renderable/ModelSystem.hpp:
+../src/renderable/../renderable/ModelSystem.h:
 
-../src/renderable/shapes/Shape.hpp:
+../src/renderable/shapes/Shape.h:
 
-../src/renderable/shapes/../../includes.hpp:
+../src/renderable/shapes/../../includes.h:
 
-../src/renderable/shapes/LoadModel.hpp:
+../src/renderable/shapes/LoadModel.h:
 
-../src/renderable/shapes/Shape.hpp:
+../src/renderable/shapes/Shape.h:
 
-../src/renderable/shapes/LoadTexture.hpp:
+../src/renderable/shapes/LoadTexture.h:

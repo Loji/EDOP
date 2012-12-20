@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "LoadTexture.hpp"
+#include "LoadTexture.h"
 
 LoadTexture::LoadTexture() {
 	// TODO Auto-generated constructor stub

@@ -8,10 +8,10 @@
 #ifndef PLAYER_HPP_
 #define PLAYER_HPP_
 
-#include "../includes.hpp"
-#include "../utils/Collision.hpp"
-#include "../renderable/Entity.hpp"
-#include "../renderable/ModelSystem.hpp"
+#include "../includes.h"
+#include "../utils/Collision.h"
+#include "../renderable/Entity.h"
+#include "../renderable/ModelSystem.h"
 
 class Player {
 public:

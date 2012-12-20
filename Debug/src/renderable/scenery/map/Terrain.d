@@ -1,7 +1,7 @@
 src/renderable/scenery/map/Terrain.d: \
  ../src/renderable/scenery/map/Terrain.cpp \
- ../src/renderable/scenery/map/Terrain.hpp \
- ../src/renderable/scenery/map/../../../includes.hpp \
+ ../src/renderable/scenery/map/Terrain.h \
+ ../src/renderable/scenery/map/../../../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -132,17 +132,17 @@ src/renderable/scenery/map/Terrain.d: \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/renderable/scenery/map/../../../renderable/ModelSystem.hpp \
- ../src/renderable/scenery/map/../../../renderable/../includes.hpp \
- ../src/renderable/scenery/map/../../../renderable/shapes/Shape.hpp \
- ../src/renderable/scenery/map/../../../renderable/shapes/../../includes.hpp \
- ../src/renderable/scenery/map/../../../renderable/shapes/LoadModel.hpp \
- ../src/renderable/scenery/map/../../../renderable/shapes/Shape.hpp \
- ../src/renderable/scenery/map/../../../renderable/shapes/LoadTexture.hpp
+ ../src/renderable/scenery/map/../../../renderable/ModelSystem.h \
+ ../src/renderable/scenery/map/../../../renderable/../includes.h \
+ ../src/renderable/scenery/map/../../../renderable/shapes/Shape.h \
+ ../src/renderable/scenery/map/../../../renderable/shapes/../../includes.h \
+ ../src/renderable/scenery/map/../../../renderable/shapes/LoadModel.h \
+ ../src/renderable/scenery/map/../../../renderable/shapes/Shape.h \
+ ../src/renderable/scenery/map/../../../renderable/shapes/LoadTexture.h
 
-../src/renderable/scenery/map/Terrain.hpp:
+../src/renderable/scenery/map/Terrain.h:
 
-../src/renderable/scenery/map/../../../includes.hpp:
+../src/renderable/scenery/map/../../../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -404,16 +404,16 @@ src/renderable/scenery/map/Terrain.d: \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/renderable/scenery/map/../../../renderable/ModelSystem.hpp:
+../src/renderable/scenery/map/../../../renderable/ModelSystem.h:
 
-../src/renderable/scenery/map/../../../renderable/../includes.hpp:
+../src/renderable/scenery/map/../../../renderable/../includes.h:
 
-../src/renderable/scenery/map/../../../renderable/shapes/Shape.hpp:
+../src/renderable/scenery/map/../../../renderable/shapes/Shape.h:
 
-../src/renderable/scenery/map/../../../renderable/shapes/../../includes.hpp:
+../src/renderable/scenery/map/../../../renderable/shapes/../../includes.h:
 
-../src/renderable/scenery/map/../../../renderable/shapes/LoadModel.hpp:
+../src/renderable/scenery/map/../../../renderable/shapes/LoadModel.h:
 
-../src/renderable/scenery/map/../../../renderable/shapes/Shape.hpp:
+../src/renderable/scenery/map/../../../renderable/shapes/Shape.h:
 
-../src/renderable/scenery/map/../../../renderable/shapes/LoadTexture.hpp:
+../src/renderable/scenery/map/../../../renderable/shapes/LoadTexture.h:

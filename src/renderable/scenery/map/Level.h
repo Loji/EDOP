@@ -8,9 +8,9 @@
 #ifndef LEVEL_HPP_
 #define LEVEL_HPP_
 
-#include "../../../includes.hpp"
-#include "../../Entity.hpp"
-#include "../../../utils/Collision.hpp"
+#include "../../../includes.h"
+#include "../../Entity.h"
+#include "../../../utils/Collision.h"
 
 class Miner {
 public:

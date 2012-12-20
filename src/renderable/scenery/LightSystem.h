@@ -8,7 +8,7 @@
 #ifndef LIGHT_HPP_
 #define LIGHT_HPP_
 
-#include "../../includes.hpp"
+#include "../../includes.h"
 
 class LightSystem {
 public:

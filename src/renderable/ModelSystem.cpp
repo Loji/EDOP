@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "ModelSystem.hpp"
+#include "ModelSystem.h"
 
 ModelSystem::Model::Model(std::string path) {
 	loadShape(path);
@@ -104,23 +104,23 @@ void ModelSystem::create() {
 	//modelList.clear();
 
 	modelList.push_back(
-			new Model("/home/jacob/git/edop/res/1.obj",
-					"/home/jacob/git/edop/res/1.tga"));
+			new Model("/home/jacob/git/EDOP/res/1.obj",
+					"/home/jacob/git/EDOP/res/1.tga"));
 	modelList.at(0)->setShaderID(textureShaderID);
 
 	modelList.push_back(
-			new Model("/home/jacob/git/edop/res/2.obj",
-					"/home/jacob/git/edop/res/2.tga"));
+			new Model("/home/jacob/git/EDOP/res/2.obj",
+					"/home/jacob/git/EDOP/res/2.tga"));
 	modelList.at(1)->setShaderID(textureShaderID);
 
 	modelList.push_back(
-			new Model("/home/jacob/git/edop/res/pistol.obj",
-					"/home/jacob/git/edop/res/pistol.tga"));
+			new Model("/home/jacob/git/EDOP/res/pistol.obj",
+					"/home/jacob/git/EDOP/res/pistol.tga"));
 	modelList.at(2)->setShaderID(textureShaderID);
 
 	modelList.push_back(
-			new Model("/home/jacob/git/edop/res/3.obj",
-					"/home/jacob/git/edop/res/3.tga"));
+			new Model("/home/jacob/git/EDOP/res/3.obj",
+					"/home/jacob/git/EDOP/res/3.tga"));
 	modelList.at(3)->setShaderID(textureShaderID);
 
 }

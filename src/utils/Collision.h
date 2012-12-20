@@ -8,7 +8,7 @@
 #ifndef COLLISION_HPP
 #define COLLISION_HPP
 
-#include "../includes.hpp"
+#include "../includes.h"
 #include "../entities.h"
 
 class Collision {
@@ -49,7 +49,6 @@ namespace collided {
 	glm::mat4 getProjectionMatrix();
 	glm::vec3 getPosition();
 	glm::vec3 getDirection();
-
 
 
 }

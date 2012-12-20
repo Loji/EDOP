@@ -1,4 +1,4 @@
-#include "shader.hpp"
+#include "shader.h"
 
 using namespace std;
 
@@ -38,12 +38,12 @@ GLuint LoadShaders(const char * vertex_file_path,
 	int InfoLogLength;
 
 	//compiling shaders
-	cout << "Compiling shader : " << vertex_file_path;
+	cout << "Compiling shader : " << vertex_file_path << "\n";
 	char const * VertexSourcePointer = VertexShaderCode.c_str();
 	glShaderSource(VertexShaderID, 1, &VertexSourcePointer, NULL);
 	glCompileShader(VertexShaderID);
 
-	cout << "Compiling shader : " << fragment_file_path;
+	cout << "Compiling shader : " << fragment_file_path << "\n";
 	char const * FragmentSourcePointer = FragmentShaderCode.c_str();
 	glShaderSource(FragmentShaderID, 1, &FragmentSourcePointer, NULL);
 	glCompileShader(FragmentShaderID);

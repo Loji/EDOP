@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "Level.hpp"
+#include "Level.h"
 
 Miner::Miner() {
 }

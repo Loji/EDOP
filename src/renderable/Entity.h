@@ -8,10 +8,10 @@
 #ifndef ENTITY_H_
 #define ENTITY_H_
 
-#include "../includes.hpp"
-#include "ModelSystem.hpp"
-#include "shapes/Shape.hpp"
-#include "shapes/LoadModel.hpp"
+#include "../includes.h"
+#include "ModelSystem.h"
+#include "shapes/Shape.h"
+#include "shapes/LoadModel.h"
 #include <iostream>
 
 class Entity {

@@ -5,8 +5,8 @@
  *      Author: jacob
  */
 
-#include "includes.hpp"
-#include "instances/Game.hpp"
+#include "includes.h"
+#include "instances/Game.h"
 
 int main() {
 
@@ -19,7 +19,8 @@ int main() {
     //glfwOpenWindowHint(GLFW_FSAA_SAMPLES, 4);
 
 
-    if (!glfwOpenWindow(700, 700, 0, 0, 0, 0, 32, 0, GLFW_WINDOW)) {
+    //if (!glfwOpenWindow(700, 700, 0, 0, 0, 0, 32, 0, GLFW_WINDOW)) {
+    if (!glfwOpenWindow(1024, 768, 0, 0, 0, 0, 32, 0, GLFW_WINDOW)) {
         glfwTerminate();
         return -1;
     }

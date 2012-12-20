@@ -8,20 +8,20 @@
 #ifndef GAME_H_
 #define GAME_H_
 
-#include "../includes.hpp"
+#include "../includes.h"
 
 //renderables
-#include "../renderable/Entity.hpp"
-#include "../renderable/scenery/Map.hpp"
-#include "../renderable/ModelSystem.hpp"
-#include "../renderable/scenery/map/Terrain.hpp"
-#include "../renderable/scenery/map/Level.hpp"
+#include "../renderable/Entity.h"
+#include "../renderable/scenery/Map.h"
+#include "../renderable/ModelSystem.h"
+#include "../renderable/scenery/map/Terrain.h"
+#include "../renderable/scenery/map/Level.h"
 
 
 //utils
-#include "../utils/shader.hpp"
-#include "../utils/controls.hpp"
-#include "../utils/Collision.hpp"
+#include "../utils/shader.h"
+#include "../utils/controls.h"
+#include "../utils/Collision.h"
 
 
 

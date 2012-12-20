@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "LoadModel.hpp"
+#include "LoadModel.h"
 
 LoadModel::LoadModel() {
     //numberElements = 0;

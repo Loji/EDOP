@@ -1,5 +1,5 @@
 src/entities/Player.d: ../src/entities/Player.cpp \
- ../src/entities/Player.hpp ../src/entities/../includes.hpp \
+ ../src/entities/Player.h ../src/entities/../includes.h \
  /usr/include/bullet/btBulletDynamicsCommon.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
  /usr/include/bullet/BulletCollision/CollisionDispatch/btCollisionWorld.h \
@@ -130,23 +130,22 @@ src/entities/Player.d: ../src/entities/Player.cpp \
  /usr/include/bullet/BulletDynamics/Dynamics/btActionInterface.h \
  /usr/include/bullet/BulletDynamics/Dynamics/btRigidBody.h \
  /usr/include/bullet/btBulletCollisionCommon.h \
- ../src/entities/../renderable/ModelSystem.hpp \
- ../src/entities/../renderable/../includes.hpp \
- ../src/entities/../renderable/shapes/Shape.hpp \
- ../src/entities/../renderable/shapes/../../includes.hpp \
- ../src/entities/../renderable/shapes/LoadModel.hpp \
- ../src/entities/../renderable/shapes/Shape.hpp \
- ../src/entities/../renderable/shapes/LoadTexture.hpp \
- ../src/entities/../utils/Collision.hpp \
- ../src/entities/../utils/../includes.hpp \
- /usr/include/bullet/../entities.h \
- ../src/entities/../renderable/Entity.hpp \
- ../src/entities/../renderable/ModelSystem.hpp \
- ../src/entities/../renderable/ModelSystem.hpp
+ ../src/entities/../renderable/ModelSystem.h \
+ ../src/entities/../renderable/../includes.h \
+ ../src/entities/../renderable/shapes/Shape.h \
+ ../src/entities/../renderable/shapes/../../includes.h \
+ ../src/entities/../renderable/shapes/LoadModel.h \
+ ../src/entities/../renderable/shapes/Shape.h \
+ ../src/entities/../renderable/shapes/LoadTexture.h \
+ ../src/entities/../utils/Collision.h \
+ ../src/entities/../utils/../includes.h /usr/include/bullet/../entities.h \
+ ../src/entities/../renderable/Entity.h \
+ ../src/entities/../renderable/ModelSystem.h \
+ ../src/entities/../renderable/ModelSystem.h
 
-../src/entities/Player.hpp:
+../src/entities/Player.h:
 
-../src/entities/../includes.hpp:
+../src/entities/../includes.h:
 
 /usr/include/bullet/btBulletDynamicsCommon.h:
 
@@ -408,28 +407,28 @@ src/entities/Player.d: ../src/entities/Player.cpp \
 
 /usr/include/bullet/btBulletCollisionCommon.h:
 
-../src/entities/../renderable/ModelSystem.hpp:
+../src/entities/../renderable/ModelSystem.h:
 
-../src/entities/../renderable/../includes.hpp:
+../src/entities/../renderable/../includes.h:
 
-../src/entities/../renderable/shapes/Shape.hpp:
+../src/entities/../renderable/shapes/Shape.h:
 
-../src/entities/../renderable/shapes/../../includes.hpp:
+../src/entities/../renderable/shapes/../../includes.h:
 
-../src/entities/../renderable/shapes/LoadModel.hpp:
+../src/entities/../renderable/shapes/LoadModel.h:
 
-../src/entities/../renderable/shapes/Shape.hpp:
+../src/entities/../renderable/shapes/Shape.h:
 
-../src/entities/../renderable/shapes/LoadTexture.hpp:
+../src/entities/../renderable/shapes/LoadTexture.h:
 
-../src/entities/../utils/Collision.hpp:
+../src/entities/../utils/Collision.h:
 
-../src/entities/../utils/../includes.hpp:
+../src/entities/../utils/../includes.h:
 
 /usr/include/bullet/../entities.h:
 
-../src/entities/../renderable/Entity.hpp:
+../src/entities/../renderable/Entity.h:
 
-../src/entities/../renderable/ModelSystem.hpp:
+../src/entities/../renderable/ModelSystem.h:
 
-../src/entities/../renderable/ModelSystem.hpp:
+../src/entities/../renderable/ModelSystem.h:

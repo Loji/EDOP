@@ -20,7 +20,7 @@ uniform vec3 diffuseDir;
 
 uniform sampler2D textureSampler;
 
-#include "/home/jacob/git/edop/src/renderable/shader/PointLight.frag"
+#include "/home/jacob/git/EDOP/src/renderable/shader/PointLight.frag"
 
 struct simpleCont {
     vec3 pos; 

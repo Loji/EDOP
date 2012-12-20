@@ -7,6 +7,14 @@ Made for fun, entertainment and learning purposes.
 
 So far idea for game is that it will be Doom-like shooter with randomly generated map. 
  
+Controls:
+A, S, D, W - movement
+Z - turns on/off gravity 
+TAB - locks/unlocks mouse 
+ESC - shuts down the window
+1, 2, 3, 4 - changes light color 
+Space - puts light on player position  
+
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

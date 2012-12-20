@@ -5,7 +5,7 @@
  *      Author: jacob
  */
 
-#include "Terrain.hpp"
+#include "Terrain.h"
 
 // old terrain plane generator, generates array of vertexes
 
